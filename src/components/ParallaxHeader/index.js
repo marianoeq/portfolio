@@ -15,12 +15,11 @@ const ParallaxImage = () => {
 
     return (
             <Parallax
-                blur={{ min: -15, max: 15 }}
                 bgImage={backgroundImage}
                 bgImageAlt="Parallax Image - Pretty Colors"
-                strength={-200}
+                strength={-250}
             >
-                <div style={{ height: '350px' }} />
+                <div style={{ height: '350px'}} />
             </Parallax>
     );
 }
