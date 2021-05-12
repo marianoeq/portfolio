@@ -5,8 +5,9 @@ import "./style.css";
 // Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
     return (
+        
         <nav className="navbar navbar-expand-md theme-color navbar-dark">
-        <a class="navbar-brand" href="https://github.com/Robbie-Bridgwater/Portfolio">Robert Bridgwater</a>
+        <a className="navbar-brand" href="https://github.com/Robbie-Bridgwater/Portfolio">Robert Bridgwater</a>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
                 <span className="navbar-toggler-icon"></span>
             </button>
