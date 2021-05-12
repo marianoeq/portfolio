@@ -28,3 +28,17 @@
 .btn {
     margin: 1%;
 }
+
+.contactInfo {
+    font-size: 15px;
+}
+
+
+/* MISC */
+
+
+/* On the contactMe page this controls the size for the your message input field */
+
+.yourMessage {
+    height: 110px;
+}
