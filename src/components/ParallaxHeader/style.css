@@ -1,0 +1,45 @@
+/* HEADER, PROFILE PICTURE AND PARALLAX SECTION */
+
+.profile-picture {
+    border-radius: 50%;
+    height: auto;
+    position: relative;
+    left: 5%;
+    border: 5px solid white;
+}
+
+@media screen and (max-width: 480px) {
+    .profile-picture {
+        height: 385px;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        left: -1%;
+    }
+}
+
+.parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/* MOSAIC FOR PARALLAX IMAGE AND PROFILE IMAGE (TO MAKE THEM OVERLAP) */
+
+.mosaic {
+    display: grid;
+}
+
+.mosaic__item:first-of-type {
+    grid-column: 1 / span 2;
+    grid-row: 1/ span 2;
+}
+
+.mosaic__item:last-of-type {
+    grid-column: 1 / span 2;
+    grid-row: 1/ span 2;
+}

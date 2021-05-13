@@ -1,0 +1,44 @@
+/* TITLE SECTION */
+
+.title {
+    font-family: 'Lexend Mega', sans-serif;
+    color: #431c53;
+    border-bottom: 3px solid #431c53;
+}
+
+.subTitle {
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+
+/* CONTAINER/MAIN BODY */
+
+.container {
+    font-family: 'Raleway', sans-serif;
+    font-size: large;
+}
+
+.wrapper {
+    margin-bottom: 3%;
+}
+
+
+/* SOCIALS (ICONS)  */
+
+.btn {
+    margin: 1%;
+}
+
+.contactInfo {
+    font-size: 15px;
+}
+
+
+/* MISC */
+
+
+/* On the contactMe page this controls the size for the your message input field */
+
+.yourMessage {
+    height: 110px;
+}
