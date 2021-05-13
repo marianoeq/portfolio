@@ -5,7 +5,7 @@ import ProjectCard from "../ProjectCard"
 import Projects from "../ProjectCardData"
 
 const breakpointColumnsObj = {
-    default: 4,
+    default: 3,
     1100: 2,
     700: 1,
     500: 1
