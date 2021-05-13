@@ -1,8 +1,9 @@
 import ParallaxHeader from "../components/ParallaxHeader";
 import React from "react";
 import Wrapper from "../components/Wrapper";
-import ProjectCard from "../components/ProjectCard";
-import Projects from "../components/ProjectCardData"
+// import ProjectCard from "../components/ProjectCard";
+// import Projects from "../components/ProjectCardData"
+import MasonryGrid from "../components/Masonry";
 
 function Portfolio() {
     return (
@@ -18,18 +19,9 @@ function Portfolio() {
                     </div>
                 </div>
                 <br></br>
-                <div className="grid">
-                    {Projects.map((projectData) => {
-                        return <ProjectCard
-                            key={projectData.id}
-                            name={projectData.name}
-                            description={projectData.description}
-                            screenshot={projectData.screenshot}
-                            repo={projectData.repo}
-                            deployedURL={projectData.deployedURL}
-                        />
-                    })}
-                </div>
+
+                <MasonryGrid></MasonryGrid>
+
             </div>
 
         </Wrapper>
