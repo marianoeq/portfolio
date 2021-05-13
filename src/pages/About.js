@@ -49,6 +49,9 @@ function About() {
                     <a href="https://github.com/Robbie-Bridgwater" type="button" className="btn btn-dark btn-lg btn-floating">
                         <i className="fab fa-github"></i>
                     </a>
+                    <a href="https://drive.google.com/file/d/1z7I3wXkd-YSK4M24TMR-SkRr3dHyx3iI/view" type="button" className="btn btn-dark btn-lg btn-floating">
+                    <i class="fas fa-file"></i>
+                    </a>
                 </div>
 
 
