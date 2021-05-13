@@ -1,17 +1,23 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "./style.css";
+import React, { useState } from 'react';
 
-// Depending on the current path, this component sets the "active" class on the appropriate navigation link item
 function Navbar() {
+    
+    const [isNavCollapsed, setIsNavCollapsed] = useState(true);
+
+    const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
+
     return (
-        
+
         <nav className="navbar navbar-expand-md theme-color navbar-dark">
-        <a className="navbar-brand" href="https://github.com/Robbie-Bridgwater/Portfolio">Robert Bridgwater</a>
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <a className="navbar-brand" href="https://github.com/Robbie-Bridgwater/Portfolio">Robert Bridgwater</a>
+
+            <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <div className="collapse navbar-collapse" id="collapsibleNavbar">
+
+            <div className={`${isNavCollapsed ? 'collapse' : ''} navbar-collapse`} id="navbarsExample09">
                 <ul className="navbar-nav">
                     <li className="nav-item">
                         <Link
