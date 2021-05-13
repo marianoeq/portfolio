@@ -11,7 +11,7 @@ function Navbar() {
     return (
 
         <nav className="navbar navbar-expand-md theme-color navbar-dark">
-            <a className="navbar-brand" href="https://github.com/Robbie-Bridgwater/Portfolio">Robert Bridgwater</a>
+            <a className="navbar-brand" href="https://github.com/Robbie-Bridgwater/react-portfolio">Robert Bridgwater</a>
 
             <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
                 <span className="navbar-toggler-icon"></span>

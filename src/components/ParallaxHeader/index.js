@@ -17,7 +17,7 @@ const ParallaxImage = () => {
             <Parallax
                 bgImage={backgroundImage}
                 bgImageAlt="Parallax Image - Pretty Colors"
-                strength={-250}
+                strength={-125}
             >
                 <div style={{ height: '350px'}} />
             </Parallax>

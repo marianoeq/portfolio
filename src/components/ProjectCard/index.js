@@ -8,8 +8,8 @@ function ProjectCard(props) {
       <div className="card-body">
         <h5 className="card-title subTitle">{props.name}</h5>
         <p className="card-text">{props.description}</p>
-        <a href={props.repo} className="btn btn-light btn-rounded">Repo</a>
-        <a href={props.deployedURL} className="btn btn-light btn-rounded">Live URL</a>
+        <a href={props.repo} className="btn btn-light btn-rounded"><strong>Repo</strong></a>
+        <a href={props.deployedURL} className="btn btn-light btn-rounded"><strong>Live URL</strong></a>
       </div>
     </div>
   );
