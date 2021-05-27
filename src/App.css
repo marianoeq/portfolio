@@ -23,6 +23,7 @@
 
 .wrapper {
     padding-bottom: 5%;
+    background-color: black !important;
 }
 
 .container {
@@ -108,7 +109,7 @@ input {
 }
 
 textarea {
-    width: 22.5%;
+    width: 40%;
 }
 
 
