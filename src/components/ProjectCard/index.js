@@ -6,10 +6,10 @@ function ProjectCard(props) {
     <div className="card border-dark mb-3 grid-item"> 
       <img className="card-img-top" src={props.screenshot} alt={props.name}></img>
       <div className="card-body">
-        <h5 className="card-title subTitle">{props.name}</h5>
-        <p className="card-text">{props.description}</p>
-        <a href={props.repo} className="btn btn-light btn-rounded"><strong>Repo</strong></a>
-        <a href={props.deployedURL} className="btn btn-light btn-rounded"><strong>Live URL</strong></a>
+        <h5 className="card-title">&#123; <span className='objKey'>{props.name}</span>:</h5>
+        <p className="card-text"><span className="objString">"{props.description}"</span> &#125;<div/></p>
+        <a href={props.repo} className="btn btn-dark btn-rounded"><strong>Repo</strong></a>
+        <a href={props.deployedURL} className="btn btn-dark btn-rounded"><strong>Live URL</strong></a>
       </div>
     </div>
   );

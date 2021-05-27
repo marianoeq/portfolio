@@ -2,13 +2,19 @@
     width: 18rem;
 }
 
+.card-body,
+.card-img-top {
+    border: 3px solid #18CAE6;
+    box-shadow: 0 0 5px rgba(21, 171, 195, 0.7);
+}
+
+.card-body {
+    background-color: #282828;
+}
+
 .card:hover {
     transition: all .2s ease-in-out;
     transform: scale(1.1);
-}
-
-.subTitle {
-    font-family: 'Lexend Mega', sans-serif;
 }
 
 .btn {

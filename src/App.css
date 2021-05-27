@@ -1,44 +1,145 @@
-/* TITLE SECTION */
+/* TITLE SECTIONS */
 
-.title {
-    font-family: 'Lexend Mega', sans-serif;
-    color: #431c53;
-    border-bottom: 3px solid #431c53;
+.title,
+.subTitle,
+.mainContent,
+.objectDiv {
+    font-family: "Bitstream Vera Sans Mono", monospace;
+    color: white;
+    text-shadow: 0 0 5px #18CAE6;
 }
 
-.subTitle {
-    font-family: 'Lexend Mega', sans-serif;
+.title {
+    border-bottom: 2px solid #18CAE6;
+    text-align: center;
 }
 
 
 /* CONTAINER/MAIN BODY */
 
-.container {
-    font-family: 'Raleway', sans-serif;
-    font-size: large;
+* {
+    cursor: crosshair;
 }
 
 .wrapper {
-    margin-bottom: 5%;
+    padding-bottom: 5%;
+}
+
+.container {
+    font-size: large;
+    margin: auto;
+    width: 75%;
+}
+
+.box {
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    background-color: rgba(30, 30, 30, 0.5);
+    padding: 20px;
+    z-index: 1;
+    position: relative;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+    border: 2px solid #18CAE6;
 }
 
 
-/* SOCIALS (ICONS)  */
+/* BUTTONS  */
 
 .btn {
     margin: 1%;
 }
 
-.contactInfo {
-    font-size: 15px;
+.btn:hover {
+    cursor: pointer;
 }
 
 
 /* MISC */
 
 
-/* On the contactMe page this controls the size for the your message input field */
+/* form control */
 
-.yourMessage {
-    height: 110px;
+.formBox {
+    text-align: center;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input,
+textarea {
+    background-color: #282828;
+    -moz-border-radius: 1em;
+    border-radius: 1em;
+    border: 2px solid #18CAE6;
+    text-shadow: 0 0 5px #18CAE6;
+}
+
+input {
+    color: white;
+}
+
+textarea {
+    color: #FF851B;
+}
+
+input {
+    width: 10%;
+}
+
+.formButtons {
+    text-align: center;
+}
+
+
+/* blink animation */
+
+.blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+@-webkit-keyframes blink-animation {
+    to {
+        visibility: hidden;
+    }
+}
+
+
+/* "Object" color scheme */
+
+.objKey {
+    color: #18CAE6;
+}
+
+.objString {
+    color: #FF851B;
+}
+
+.objInt {
+    color: #01FF70;
+}
+
+.objLink {
+    text-decoration: none;
+    color: #AAAAAA;
+}
+
+.objLink:hover {
+    color: #01FF70;
+}
+
+.tab {
+    margin-left: 40px;
 }

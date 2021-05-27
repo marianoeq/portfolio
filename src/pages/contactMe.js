@@ -1,75 +1,53 @@
 import React from "react";
 import Wrapper from "../components/Wrapper";
+import TronGrid from "../components/TronGrid";
 
 function contactMe() {
     return (
 
         <Wrapper>
-            <div className="container">
-                <section className="mb-4">
-                    <h1 className="h1-responsive font-weight-bold text-center my-4 title">Contact Me</h1>
-                    <p className="text-center w-responsive mx-auto mb-5">Please do not hesitate to contact me directly. I will come back to you as soon as I can.</p>
-                    <div className="row">
-                        <div className="col-md-9 mb-md-0 mb-5">
-                            <form id="contact-form" name="contact-form" action="mail.php" method="POST">
-                                <div className="row">
-                                    <div className="col-md-6">
-                                        <div className="md-form mb-0">
-                                            <input type="text" id="name" name="name" className="form-control"></input>
-                                            <label for="name" className="">Your name</label>
-                                        </div>
-                                    </div>
-                                    <div className="col-md-6">
-                                        <div className="md-form mb-0">
-                                            <input type="text" id="email" name="email" className="form-control"></input>
-                                            <label for="email" className="">Your email</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-md-12">
-                                        <div className="md-form mb-0">
-                                            <input type="text" id="subject" name="subject" className="form-control"></input>
-                                            <label for="subject" className="">Subject</label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div className="row">
-                                    <div className="col-md-12">
+            <TronGrid></TronGrid>
 
-                                        <div className="md-form">
-                                            <textarea type="text" id="message" name="message" rows="2" className="form-control md-textarea yourMessage"></textarea>
-                                            <label for="message">Your message</label>
-                                        </div>
+            <div className="container mainContent box">
 
-                                    </div>
-                                </div>
-                            </form>
-                            <div className="text-center text-md-left">
-                                <a className="btn btn-primary" href="s">Send</a>
+                <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title">
+                    <h1>Contact Me<span className='blink'>_</span> </h1>
+                </div>
+                <div className="tab">&#123;</div>
+                <div className="formBox">
+                    <form action="mailto:Robbie_Bridgwater@Hotmail.co.uk" method="get" enctype="text/plain">
+                        <div>
+                            <label for="name"><span className='objKey'>Name</span>:
+                            <input type="text" name="name" id="name" />
+                            </label>
+                        </div>
+                        <div>
+                            <label for="email"><span className='objKey'>Email</span>:
+                            <input type="text" name="email" id="email" />
+                            </label>
+                        </div>
+                        <div>
+                            <label><span className='objKey'>Message</span>:</label>
+                            <br />
+                            <textarea name="comments" rows="12" cols="35"> "get in touch."</textarea>
+                        </div>
+                        <div>
+                            <div className="formButtons">
+                                <input type="submit" align="center" name="submit" value="Send" />
+                                <input type="reset" align="center" name="reset" value="Clear Form" />
                             </div>
-                            <div className="status"></div>
                         </div>
-                        <div className="col-md-3 text-center contactInfo">
-                            <ul className="list-unstyled mb-0">
-                                <li>
-                                    <i className="fas fa-map-marker-alt fa-2x"></i>
-                                    <p>Birmingham, B12 0AA, UK</p>
-                                </li>
-                                <li>
-                                    <i className="fas fa-phone mt-4 fa-2x"></i>
-                                    <p>07568 564 706</p>
-                                </li>
-                                <li>
-                                    <i className="fas fa-envelope mt-4 fa-2x"></i>
-                                    <p>Robbie_Bridgwater@Hotmail.co.uk</p>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </section>
+                    </form>
+                    <div style={{textAlign: 'left'}}>&#125;</div>
+
+                </div>
             </div>
 
+
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <br></br>
             <br></br>
 

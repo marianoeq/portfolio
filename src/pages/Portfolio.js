@@ -1,21 +1,17 @@
-import ParallaxHeader from "../components/ParallaxHeader";
 import React from "react";
 import Wrapper from "../components/Wrapper";
-// import ProjectCard from "../components/ProjectCard";
-// import Projects from "../components/ProjectCardData"
 import MasonryGrid from "../components/Masonry";
+import TronGrid from "../components/TronGrid";
 
 function Portfolio() {
     return (
 
         <Wrapper>
-
-            <ParallaxHeader></ParallaxHeader>
-
-            <div className="container">
+            <TronGrid></TronGrid>
+            <div className="container mainContent box">
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title">
-                        <h1>Portfolio</h1>
+                        <h1>Portfolio<span className='blink'>_</span> </h1>
                     </div>
                 </div>
                 <br></br>
@@ -23,7 +19,6 @@ function Portfolio() {
                 <MasonryGrid></MasonryGrid>
 
             </div>
-
         </Wrapper>
 
     )

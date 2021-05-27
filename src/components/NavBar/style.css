@@ -1,3 +1,13 @@
-.theme-color {
-    background-color: #431c53
+.nav-link.active,
+.navbar-brand,
+a.nav-link:hover,
+a.nav-link:visited {
+    color: white;
+    font-family: "Bitstream Vera Sans Mono", monospace;
+    cursor: pointer;
+    text-shadow: 0 0 5px rgba(21, 171, 195, 0.7);
+}
+
+.navItems {
+    margin-left: 7.5%;
 }
