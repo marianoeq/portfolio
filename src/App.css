@@ -2,8 +2,8 @@
 
 .title,
 .subTitle,
-.mainContent,
-.objectDiv {
+.objectDiv,
+.box {
     font-family: "Bitstream Vera Sans Mono", monospace;
     color: white;
     text-shadow: 0 0 5px #18CAE6;
@@ -73,7 +73,6 @@ input[type=text] {
 
 input,
 textarea {
-    width: 50%;
     background-color: #282828;
     -moz-border-radius: 1em;
     border-radius: 1em;
@@ -83,14 +82,33 @@ textarea {
 
 input {
     color: white;
+    width: 11.25%;
 }
 
-input {
-    width: 10%;
+@media screen and (max-width: 480px) {
+    .forceTextArea {
+        width: 100%;
+    }
+    input {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 700px) {
+    .forceTextArea {
+        width: 100%;
+    }
+    input {
+        width: 20%;
+    }
 }
 
 .formButtons {
     text-align: center;
+}
+
+textarea {
+    width: 22.5%;
 }
 
 

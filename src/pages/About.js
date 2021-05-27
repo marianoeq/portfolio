@@ -16,7 +16,6 @@ function About() {
 
         <Wrapper>
 
-            <br></br>
 
             <TronGrid></TronGrid>
 

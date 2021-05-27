@@ -7,7 +7,7 @@ function ProjectCard(props) {
       <img className="card-img-top" src={props.screenshot} alt={props.name}></img>
       <div className="card-body">
         <h5 className="card-title">&#123; <span className='objKey'>{props.name}</span>:</h5>
-        <p className="card-text"><span className="objString">"{props.description}"</span> &#125;<div/></p>
+        <p className="card-text"><span className="objString">"{props.description}"</span> &#125;</p>
         <a href={props.repo} className="btn btn-dark btn-rounded"><strong>Repo</strong></a>
         <a href={props.deployedURL} className="btn btn-dark btn-rounded"><strong>Live URL</strong></a>
       </div>

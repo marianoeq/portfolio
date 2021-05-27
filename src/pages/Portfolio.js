@@ -7,8 +7,9 @@ function Portfolio() {
     return (
 
         <Wrapper>
+            
             <TronGrid></TronGrid>
-            <div className="container mainContent box">
+            <div className="box">
                 <div className="row">
                     <div className="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center title">
                         <h1>Portfolio<span className='blink'>_</span> </h1>
