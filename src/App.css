@@ -73,6 +73,7 @@ input[type=text] {
 
 input,
 textarea {
+    width: 50%;
     background-color: #282828;
     -moz-border-radius: 1em;
     border-radius: 1em;
@@ -82,10 +83,6 @@ textarea {
 
 input {
     color: white;
-}
-
-textarea {
-    color: #FF851B;
 }
 
 input {
@@ -123,7 +120,9 @@ input {
     color: #18CAE6;
 }
 
-.objString {
+.objString,
+::placeholder,
+textarea {
     color: #FF851B;
 }
 

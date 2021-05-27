@@ -18,12 +18,12 @@ function contactMe() {
                     <form action="mailto:Robbie_Bridgwater@Hotmail.co.uk" method="get" enctype="text/plain">
                         <div>
                             <label for="name"><span className='objKey'>Name</span>:
-                            <input type="text" name="name" id="name" />
+                            <input type="text" name="name" id="name" placeholder='"enter name"' />
                             </label>
                         </div>
                         <div>
-                            <label for="email"><span className='objKey'>Email</span>:
-                            <input type="text" name="email" id="email" />
+                            <label for="email"><span className='objKey' >Email</span>:
+                            <input type="text" name="email" id="email" placeholder='"enter email"' />
                             </label>
                         </div>
                         <div>
