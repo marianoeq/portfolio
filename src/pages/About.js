@@ -72,7 +72,7 @@ function About() {
                             &#125;,
                         </p>
                         <br></br>
-                        <span className='objKey'>contact_clickMe</span>: &#123;
+                        <span className='objKey'>contact_clickLinks</span>: &#123;
                         <p className='tab'>
                             <span className='objKey'>#1</span>: <a href='https://www.linkedin.com/in/robert-bridgwater-8067731b8/' className='objLink' target='_blank' rel='noopener noreferrer'>LinkedIn <AiOutlineLinkedin /></a>
                             <br></br>
