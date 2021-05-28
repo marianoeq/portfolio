@@ -46,8 +46,7 @@ function About() {
                     &#123;
                                 <p className='tab'>
                         <span className='objKey'>name</span>: <span className='objString'>"Robert Bridgwater"</span>, <br></br>
-                        <span className='objKey'>bio</span>:<span className='objString'> "Full-stack developer possessing high quality skills in communication and time management - acquired through my time in hospitality as a chef and waiter. Recently completed the University of Birmingham’s Coding Bootcamp and
-                        a tech internship oriented around AGILE workflow. I am a hardworking, enthusiastic individual who isn't afraid to learn new technologies."</span>,
+                        <span className='objKey'>bio</span>:<span className='objString'> "Full-stack developer possessing high quality skills in communication; creative-problem solving; and time management. Recently finished the University of Birmingham’s Coding Bootcamp and a tech internship oriented around AGILE workflow. I am a hardworking, enthusiastic individual who isn’t afraid to learn new technologies and is keen to continue progressing what I have learnt at the bootcamp in a professional capacity. "</span>,
                         <br></br>
                         <span className='objKey'>pronouns</span>: <span className='objString'>"he/him"</span>, 
                         <br></br>
