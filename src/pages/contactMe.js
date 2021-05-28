@@ -30,12 +30,12 @@ function contactMe() {
                         <div>
                             <label><span className='objKey'>Message</span>:</label>
                             <br />
-                            <textarea className="forceTextArea" name="comments" rows="12" cols="35"> "get in touch."</textarea>
+                            <textarea className="forceTextArea" name="comments" rows="12" cols="35" defaultValue=' "get in touch."'></textarea>
                         </div>
                         <div>
                             <div className="formButtons">
-                                <input type="submit" align="center" name="submit" value="Send" />
-                                <input type="reset" align="center" name="reset" value="Clear Form" />
+                                <input type="submit" align="center" name="submit" defaultValue="Send" />
+                                <input type="reset" align="center" name="reset" defaultValue="Clear Form" />
                             </div>
                         </div>
                     </form>
