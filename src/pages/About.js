@@ -44,9 +44,9 @@ function About() {
 
                 <div className='objectDiv col-xs-8 col-sm-8 col-md-8 col-lg-8 mx-auto'>
                     &#123;
-                                <p className='tab'>
+                        <div className='tab'>
                         <span className='objKey'>name</span>: <span className='objString'>"Robert Bridgwater"</span>, <br></br>
-                        <span className='objKey'>bio</span>:<span className='objString'> "Full-stack developer possessing high quality skills in communication; creative-problem solving; and time management. Recently finished the University of Birmingham’s Coding Bootcamp and a tech internship oriented around AGILE workflow. I am a hardworking, enthusiastic individual who isn’t afraid to learn new technologies and is keen to continue what I have learnt at the bootcamp in a professional capacity. "</span>,
+                        <span className='objKey'>bio</span>:<span className='objString'> "Full-stack developer possessing high quality skills in communication; creative-problem solving; and time management. Recently finished the University of Birmingham’s Coding Bootcamp and a tech internship oriented around AGILE workflow. I am a hardworking, enthusiastic individual who isn’t afraid to learn new technologies and is keen to continue what I have learnt at the bootcamp in a professional capacity."</span>,
                         <br></br>
                         <span className='objKey'>pronouns</span>: <span className='objString'>"he/him"</span>, 
                         <br></br>
@@ -60,7 +60,7 @@ function About() {
                         <br></br>
                         <span className='objKey'>skills</span>: &#123; 
                         <br></br>
-                        <p className='tab'>
+                        <div className='tab'>
                             <span className='objKey'>soft_skills</span>: [<span className='objString'>"communication"</span>, <span className='objString'>"creative problem solving"</span>, <span className='objString'>"time-management"</span>] 
                             <br></br>
                             <span className='objKey'>hard_skills</span>: &#123;
@@ -70,10 +70,10 @@ function About() {
                             <span className='objKey'>frontend</span>: [<span className='objString'>"ReactJS"</span>, <span className='objString'>"Javascript"</span>, <span className='objString'>"Handlebars"</span>, <span className='objString'>"CSS3"</span>, <span className='objString'>"HTML5"</span>]
                             <br></br>
                             &#125;,
-                        </p>
+                        </div>
                         <br></br>
                         <span className='objKey'>contacts_clickLinks</span>: &#123;
-                        <p className='tab'>
+                        <div className='tab'>
                             <span className='objKey'>#1</span>: <a href='https://www.linkedin.com/in/robert-bridgwater-8067731b8/' className='objLink' target='_blank' rel='noopener noreferrer'>LinkedIn <AiOutlineLinkedin /></a>
                             <br></br>
                             <span className='objKey'>#2</span>: <a href='https://github.com/Robbie-Bridgwater' className='objLink' target='_blank' rel='noopener noreferrer'>GitHub <AiOutlineGithub /></a>
@@ -85,8 +85,8 @@ function About() {
                             <span className='objKey'>#5</span>: <a href='https://drive.google.com/file/d/1z7I3wXkd-YSK4M24TMR-SkRr3dHyx3iI/view' className='objLink' target='_blank' rel='noopener noreferrer'>CV <AiOutlineFile /></a>
                             <br></br>
                             &#125;
-                        </p>
-                    </p>
+                        </div>
+                    </div>
                     &#125; <span className='blink'>_</span>
                 </div>
 
