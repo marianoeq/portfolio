@@ -16,7 +16,7 @@ function contactMe() {
                 </div>
                 <div className="tab">&#123;</div>
                 <div className="formBox">
-                    <form action="mailto:Robbie_Bridgwater@Hotmail.co.uk" method="get" encType="text/plain">
+                    <form action="mailto:mariano.eq@gmail.com" method="get" encType="text/plain">
                         <div>
                             <label htmlFor="name"><span className='objKey'>Name</span>:
                             <input type="text" name="name" id="name" placeholder='"enter name"' />
