@@ -51,4 +51,4 @@ Please contact me through my GitHub provided below if you have any questions rel
 
 My GitHub username is Robbie-Bridgwater
 
-Link to my GitHub Profile ---> https://github.com/Robbie-Bridgwater
+Link to my GitHub Profile ---> https://github.com/marianoeq
