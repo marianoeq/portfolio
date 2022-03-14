@@ -1,13 +1,15 @@
 import React from "react";
-import "./style.css"
+import backgroundVideo from "../../assets/img/backgroundVideo.mp4";
+import "./style.css";
 
-function TronGrid(props) {
-return (
-    <>
-    <div className="tronGrid"></div>
-    </>
-)
+function TronGrid() {
+  return (
+        <video autoPlay loop className="video">
+          <source src={backgroundVideo} type="video/mp4" />
+        </video> 
+      )
+    }
+    export default TronGrid;
+    
+    
 
-}
-
-export default TronGrid;

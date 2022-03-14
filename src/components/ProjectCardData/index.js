@@ -44,7 +44,7 @@ const projects = [
     id: 5,
     name: "Familia",
     description:
-      "A private social media to be used within your loved ones, where you can share events, pictures, comments and important personal information.",
+      "A private social media to be used within your loved ones, where you can share events, pictures, comments and relevant personal information.",
     screenshot: familiaApp,
     repo: "https://github.com/SchoolOfCode/final-project-repo-ukla-room-16",
     deployedURL: "https://ukla.netlify.app",
