@@ -49,6 +49,4 @@ You may do either of the following:
 
 Please contact me through my GitHub provided below if you have any questions relating to how the application works or any of my other projects
 
-My GitHub username is Robbie-Bridgwater
-
 Link to my GitHub Profile ---> https://github.com/marianoeq
