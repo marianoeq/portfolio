@@ -13,7 +13,7 @@ Section | Description
 [Questions](#Questions?) | Where you can reach me
 
 ## Deployment
-OPEN PORTFOLIO ---> [HERE](https://robbie-bridgwater.herokuapp.com/)
+OPEN PORTFOLIO ---> [HERE](https://mariano-quiroga.herokuapp.com/)
 
 ## Technologies Used
 
