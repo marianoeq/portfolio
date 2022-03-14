@@ -35,14 +35,6 @@ You may do either of the following:
 * Use the deployed application, found at the top of this README
 
 
-## Screenshots
-Application in action --->
-
-![image](./src/assets/img/portfolioScreenshot.png)
-
-![image](./src/assets/img/portfolioPageScreenshot.png)
-
-![image](./src/assets/img/contactMe.png)
 
 
 ## License
