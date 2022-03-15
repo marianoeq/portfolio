@@ -13,7 +13,7 @@ Section | Description
 [Questions](#Questions?) | Where you can reach me
 
 ## Deployment
-OPEN PORTFOLIO ---> [HERE](https://robbie-bridgwater.herokuapp.com/)
+OPEN PORTFOLIO ---> [HERE](https://mariano-quiroga.herokuapp.com/)
 
 ## Technologies Used
 
@@ -35,14 +35,6 @@ You may do either of the following:
 * Use the deployed application, found at the top of this README
 
 
-## Screenshots
-Application in action --->
-
-![image](./src/assets/img/portfolioScreenshot.png)
-
-![image](./src/assets/img/portfolioPageScreenshot.png)
-
-![image](./src/assets/img/contactMe.png)
 
 
 ## License
@@ -57,6 +49,4 @@ Application in action --->
 
 Please contact me through my GitHub provided below if you have any questions relating to how the application works or any of my other projects
 
-My GitHub username is Robbie-Bridgwater
-
-Link to my GitHub Profile ---> https://github.com/Robbie-Bridgwater
+Link to my GitHub Profile ---> https://github.com/marianoeq
