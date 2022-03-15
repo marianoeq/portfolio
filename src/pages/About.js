@@ -53,9 +53,11 @@ function About() {
             <span className="objKey">bio</span>:
             <span className="objString">
               {" "}
-              "Full-stack developer possessing high quality skills in
-              communication; creative-problem solving; consistent and reliable.
-              Recently finished the National School of Code Bootcamp. I am a
+              "Full-stack developer with a background as an electrical
+              technician, possessing high quality skills in communication;
+              creative-problem solving; consistent and reliable. Recently
+              finished the National School of Code Bootcamp, an intensive
+              16-week full-stack software engineering course. I am a
               hardworking, enthusiastic individual who isn’t afraid to learn new
               technologies and is keen to continue what I have learnt at the
               bootcamp in a professional capacity."
@@ -67,7 +69,7 @@ function About() {
             <span className="objInt">31</span>,<br></br>
             <span className="objKey">occupation</span>: [
             <span className="objString">
-              "student", "electrician", "pastry-chef"
+              "student","full-stack web developer", "electrical technician"
             </span>
             ],
             <br></br>
@@ -82,7 +84,8 @@ function About() {
             <br></br>
             <div className="tab">
               <span className="objKey">soft_skills</span>: [
-              <span className="objString">"communication"</span>,{" "}
+              <span className="objString">"adaptability"</span>],{" "}
+              <span className="objString">"team work"</span>],{" "}
               <span className="objString">"creative problem solving"</span>,{" "}
               <span className="objString">"time-management"</span>]<br></br>
               <span className="objKey">hard_skills</span>: &#123;
@@ -136,7 +139,7 @@ function About() {
               <br></br>
               <span className="objKey">#4</span>:{" "}
               <a
-                href="https://drive.google.com/file/d/1z7I3wXkd-YSK4M24TMR-SkRr3dHyx3iI/view"
+                href="https://docs.google.com/document/d/1uvX6ymk4N6MHCQFW-sGKlBwp-gRHOV2j/edit?usp=sharing&ouid=103280041902646863117&rtpof=true&sd=true"
                 className="objLink"
                 target="_blank"
                 rel="noopener noreferrer"
