@@ -93,7 +93,8 @@ function About() {
               <span className="objKey">backend</span>: [
               <span className="objString">"Postgresql"</span>,{" "}
               <span className="objString">"NodeJS (express)"</span>,{" "}
-              <span className="objString">"Restful and 3rd party API's"</span>,{" "}
+              <span className="objString">"MongoDB"</span>,{" "}
+              <span className="objString">"Postman"</span>,{" "}
               <span className="objString">"Heroku"</span>],
               <br></br>
               <span className="objKey">frontend</span>: [
