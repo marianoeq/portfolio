@@ -110,7 +110,7 @@ function About() {
             <div className="tab">
               <span className="objKey">#1</span>:{" "}
               <a
-                href="https://www.linkedin.com/in/mariano-quiroga-b2002811a/"
+                href="https://www.linkedin.com/in/mariano-quiroga-react/"
                 className="objLink"
                 target="_blank"
                 rel="noopener noreferrer"
