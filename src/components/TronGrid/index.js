@@ -4,7 +4,7 @@ import "./style.css";
 
 function TronGrid() {
   return (
-        <video autoPlay loop className="video">
+        <video autoPlay loop muted className="video">
           <source src={backgroundVideo} type="video/mp4" />
         </video> 
       )
