@@ -140,7 +140,7 @@ function About() {
               <br></br>
               <span className="objKey">#4</span>:{" "}
               <a
-                href="https://docs.google.com/document/d/1uvX6ymk4N6MHCQFW-sGKlBwp-gRHOV2j/edit?usp=sharing&ouid=103280041902646863117&rtpof=true&sd=true"
+                href="https://drive.google.com/file/d/1CgpzmMkIazr0MJdGqSpsYy3dA4U8Hocp/view?usp=sharing"
                 className="objLink"
                 target="_blank"
                 rel="noopener noreferrer"
