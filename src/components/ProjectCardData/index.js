@@ -1,4 +1,4 @@
-import googleHome from "../../assets/img/googleHome.png";
+import unitConverter from "../../assets/img/unitConverter.png";
 import virtualShop from "../../assets/img/virtualShop.png";
 import coffeeBlog from "../../assets/img/coffeeBlog.png";
 import miniBlog from "../../assets/img/miniBlog.png";
@@ -7,10 +7,10 @@ import familiaApp from "../../assets/img/familiaApp.png";
 const projects = [
   {
     id: 1,
-    name: "Google-Homepage",
-    description: "The simple and very well known Google homepage",
-    screenshot: googleHome,
-    repo: "https://github.com/marianoeq/google-homepage",
+    name: "Unit-converter",
+    description: "Unit converter is a simple desktop app that changes a user's choice value from one unit measure to another one. - Length - Volume - Masss",
+    screenshot: unitConverter,
+    repo: "https://github.com/marianoeq/unit-convertor",
   },
   {
     id: 2,

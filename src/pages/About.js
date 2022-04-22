@@ -69,7 +69,7 @@ function About() {
             <span className="objInt">31</span>,<br></br>
             <span className="objKey">occupation</span>: [
             <span className="objString">
-              "student","full-stack web developer", "electrical technician"
+              "full-stack web developer", "electrical technician"
             </span>
             ],
             <br></br>
@@ -140,7 +140,7 @@ function About() {
               <br></br>
               <span className="objKey">#4</span>:{" "}
               <a
-                href="https://drive.google.com/file/d/1ozzO5_48MPOYjjCr5LXnSzVu1dkxbFh5/view?usp=sharing"
+                href="https://drive.google.com/file/d/1hVh3yod5SrJbyI_bXffnn1hCzrrYHSbr/view?usp=sharing"
                 className="objLink"
                 target="_blank"
                 rel="noopener noreferrer"
