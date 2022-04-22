@@ -11,6 +11,7 @@ const projects = [
     description: "Unit converter is a simple desktop app that changes a user's choice value from one unit measure to another one. - Length - Volume - Masss",
     screenshot: unitConverter,
     repo: "https://github.com/marianoeq/unit-convertor",
+    deployedURL:"https://measures-converter.netlify.app/"
   },
   {
     id: 2,
