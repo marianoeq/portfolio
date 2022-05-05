@@ -3,6 +3,7 @@ import virtualShop from "../../assets/img/virtualShop.png";
 import coffeeBlog from "../../assets/img/coffeeBlog.png";
 import miniBlog from "../../assets/img/miniBlog.png";
 import familiaApp from "../../assets/img/familiaApp.png";
+import weatherApp from "../../assets/img/weatherApp.png";
 
 const projects = [
   {
@@ -49,6 +50,15 @@ const projects = [
     screenshot: familiaApp,
     repo: "https://github.com/SchoolOfCode/final-project-repo-ukla-room-16",
     deployedURL: "https://ukla.netlify.app/",
+  },
+  {
+    id: 6,
+    name: "Weather-App",
+    description:
+      "A weather application able to fetch the climate condition of a city previously selected by the user.",
+    screenshot: weatherApp,
+    repo: "https://github.com/marianoeq/Weather-app",
+    deployedURL: "https://thegreatestweatherapp.netlify.app/",
   },
 ];
 
