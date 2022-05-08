@@ -4,6 +4,7 @@ import coffeeBlog from "../../assets/img/coffeeBlog.png";
 import miniBlog from "../../assets/img/miniBlog.png";
 import familiaApp from "../../assets/img/familiaApp.png";
 import weatherApp from "../../assets/img/weatherApp.png";
+import luckyBlackjack from "../../assets/img/luckyBlackjack.png";
 
 const projects = [
   {
@@ -59,6 +60,15 @@ const projects = [
     screenshot: weatherApp,
     repo: "https://github.com/marianoeq/Weather-app",
     deployedURL: "https://thegreatestweatherapp.netlify.app/",
+  },
+  {
+    id: 7,
+    name: "Lucky Blackjack",
+    description: luckyBlackjack,
+      "The classic and well-known casino game, but slightly different. You have 5 lucky shots to hit blackjack. This game is for those superstitious who need that quote of luck to make sure that everything will be right! ",
+    screenshot: blackjack,
+    repo: "https://github.com/marianoeq/blackjack",
+    deployedURL: "https://lucky-blackjack.netlify.app/",
   },
 ];
 
