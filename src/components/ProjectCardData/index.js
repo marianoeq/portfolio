@@ -64,9 +64,8 @@ const projects = [
   {
     id: 7,
     name: "Lucky Blackjack",
-    description: luckyBlackjack,
-      "The classic and well-known casino game, but slightly different. You have 5 lucky shots to hit blackjack. This game is for those superstitious who need that quote of luck to make sure that everything will be right! ",
-    screenshot: blackjack,
+    description:"The classic and well-known casino game, but slightly different. You have 5 lucky shots to hit blackjack. This game is for those superstitious who need that quote of luck to make sure that everything will be right! ",
+    screenshot: luckyBlackjack,
     repo: "https://github.com/marianoeq/blackjack",
     deployedURL: "https://lucky-blackjack.netlify.app/",
   },
