@@ -5,6 +5,7 @@ import miniBlog from "../../assets/img/miniBlog.png";
 import familiaApp from "../../assets/img/familiaApp.png";
 import weatherApp from "../../assets/img/weatherApp.png";
 import luckyBlackjack from "../../assets/img/luckyBlackjack.png";
+import chromeExtension from "../../assets/img/chromeExtension.png";
 
 const projects = [
   {
@@ -68,6 +69,13 @@ const projects = [
     screenshot: luckyBlackjack,
     repo: "https://github.com/marianoeq/blackjack",
     deployedURL: "https://lucky-blackjack.netlify.app/",
+  },
+  {
+    id: 8,
+    name: "Chrome Extension",
+    description:"Chrome Extension built in JavaScript. Useful tool to keep track of web-sites and input comments. Descriptions to make use of it on README.md file",
+    screenshot: chromeExtension,
+    repo: "https://github.com/marianoeq/chrome-extensionk",
   },
 ];
 

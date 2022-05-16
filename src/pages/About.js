@@ -66,7 +66,7 @@ function About() {
             <span className="objKey">location</span>:{" "}
             <span className="objString">"London"</span>,<br></br>
             <span className="objKey">age</span>:{" "}
-            <span className="objInt">31</span>,<br></br>
+            <span className="objInt">32</span>,<br></br>
             <span className="objKey">occupation</span>: [
             <span className="objString">
               "full-stack web developer", "electrical technician"
