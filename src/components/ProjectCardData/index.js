@@ -6,6 +6,7 @@ import familiaApp from "../../assets/img/familiaApp.png";
 import weatherApp from "../../assets/img/weatherApp.png";
 import luckyBlackjack from "../../assets/img/luckyBlackjack.png";
 import chromeExtension from "../../assets/img/chromeExtension.png";
+import randomPassword from "../../assets/img/randomPassword.png";
 
 const projects = [
   {
@@ -75,7 +76,15 @@ const projects = [
     name: "Chrome Extension",
     description:"Chrome Extension built in JavaScript. Useful tool to keep track of web-sites and input comments. Descriptions to make use of it on README.md file",
     screenshot: chromeExtension,
-    repo: "https://github.com/marianoeq/chrome-extensionk",
+    repo: "https://github.com/marianoeq/chrome-extension",
+  },
+  {
+    id: 9,
+    name: "Random Password Generator",
+    description:"Random password generator is an app to create a strong password. The user can select the length of the password and copy it to the clipboard.",
+    screenshot: randomPassword,
+    repo: "https://github.com/marianoeq/passwordGenerator",
+    deployedURL: "https://randompasswordgenerator2022.netlify.app/",
   },
 ];
 
