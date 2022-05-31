@@ -1,5 +1,5 @@
 import unitConverter from "../../assets/img/unitConverter.png";
-import virtualShop from "../../assets/img/virtualShop.png";
+import wizardMonsters from "../../assets/img/wizardMonsters.png";
 import coffeeBlog from "../../assets/img/coffeeBlog.png";
 import miniBlog from "../../assets/img/miniBlog.png";
 import familiaApp from "../../assets/img/familiaApp.png";
@@ -19,12 +19,12 @@ const projects = [
   },
   {
     id: 2,
-    name: "Virtual Shop T-Shirt",
+    name: "Wizard Against Monsters",
     description:
-      "A virtual T-shirt shop with an `about us` and a `selecting size and amount of t-shirt` page",
-    screenshot: virtualShop,
-    repo: "https://github.com/marianoeq/VirtualshopT-shirt",
-    deployedURL:"https://virtualt-shirtshop.netlify.app"
+      "A simple card game where the wizard has to defeats monsters",
+    screenshot: wizardMonsters,
+    repo: "https://github.com/marianoeq/wizardOrcGame",
+    deployedURL:"https://wizard-monsters.netlify.app/"
   },
   {
     id: 3,
