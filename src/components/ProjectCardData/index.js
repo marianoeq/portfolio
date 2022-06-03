@@ -1,5 +1,5 @@
 import unitConverter from "../../assets/img/unitConverter.png";
-import wizardMonsters from "../../assets/img/wizardMonsters.png";
+import wizardsMonsters from "../../assets/img/wizardsMonsters.png";
 import coffeeBlog from "../../assets/img/coffeeBlog.png";
 import miniBlog from "../../assets/img/miniBlog.png";
 import familiaApp from "../../assets/img/familiaApp.png";
@@ -22,7 +22,7 @@ const projects = [
     name: "Wizard Against Monsters",
     description:
       "A simple card game where the wizard has to defeats monsters",
-    screenshot: wizardMonsters,
+    screenshot: wizardsMonsters,
     repo: "https://github.com/marianoeq/wizardOrcGame",
     deployedURL:"https://wizard-monsters.netlify.app/"
   },
